@@ -1,187 +1,425 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE HTML>
+{% load static %}
+<html>
 <head>
+    <title>Molly Carr </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="MollydCarr.com"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {##}
+    {#<link rel="shortcut icon" href="{% static '/favicon.ico' %}" type="image/x-icon">#}
+    {#<link rel="icon" href="{% static '/favicon.ico' %}" type="image/x-icon">#}
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/clear.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/thegrid.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/common.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/common.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/responsive.css' %}"/>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie|Loved+by+the+King|Permanent+Marker|Josefin+Sans:400,600|Shadows+Into+Light|Amatic+SC:400,700|Lato:300,400,700|Coda|Bowlby+One|Open+Sans+Condensed:300|Patrick+Hand+SC|Walter+Turncoat|Just+Me+Again+Down+Here|Covered+By+Your+Grace|Neucha|Waiting+for+the+Sunrise|Annie+Use+Your+Telescope|Nothing+You+Could+Do'
+          rel='stylesheet' type='text/css'>
 
-    <title>Molly Carr</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="reset.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'js/jquery-1.8.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.myHint.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/ajax.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.carouFredSel-6.2.0-packed.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.mousewheel.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.touchSwipe.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.ba-throttle-debounce.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/portfolio.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/portfolio2.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/prettyPhoto_initialize.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/modernizr.custom.79639.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.sticky.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.dryMenu.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/small-menu.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mainb.js' %}"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans:400,600|Shadows+Into+Light|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="js/respond.src.js"></script>
+	<![endif]-->
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<table class="doc-loader">
+    <tr>
+        <td>
+            <img src="{% static 'img/ajax-loader.gif' %}" alt="Loading..."/>
+        </td>
+    </tr>
+</table>
 
-    <!-- Navigation -->
+<!--Home-->
+<div class="section home top_background" id="home">
+    <!--Navigation Menu-->
+
+
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+
+        <div id="main_menu" class="collapse navbar-collapse navbar-right navbar-main-collapse main_menu">
+            <div class="container nav navbar-nav">
+                <nav class="right">
+                    <ul>
+                        <li class="active first hidden"><a href="index.html#home">HOME</a></li>
+                        <li><a href="index.html#bio">About me</a></li>
+                        {#                    <li><a href="index.html#identity"></a></li>#}
+                        <li><a href="index.html#print">Web design</a></li>
+                        <li><a href="index.html#digital">Music</a></li>
+                        <li><a href="index.html#photo">Language</a></li>
+                        <li class="last"><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
+            <div class="one m_top_185 center">
+                <h5 class="header">
+                    <div class="strip">
+                        <img class="m_carr_header" src="../static/img/MollyCarrlogo.png">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Projects</a>
-                    </li>
-                     <li>
-                        <a class="page-scroll" href="#download">Music</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                       <span><img id="logo" src="img/MollyCarrlogo.png"></span>
-
+                        <p class="title">WEB DEVELOPER | DESIGNER | MUSICIAN | LANGUAGE TEACHER</p>
                     </div>
-                </div>
-
-                 <div class="row">
-                     <div class="col-md-7 intro-body"><br><br><hr>
-             <h2> Aspiring Front End Developer   |   Musician   |  Language Teacher </h2>
-
-            </div>
-
-                 </div>
-
-
-            <a href="#aboutsection" class="btn btn-circle page-scroll" id="button">
-            <i class="fa fa-angle-down animated"></i></a>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center"><span id="aboutsection">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h1 id="aboutme">About Me</h1>
-                <h3 class="me"> I have always been <span class="highlight"> fascinated </span> with the interface between <span class="highlight">
-                    language </span> and <span class="highlight"> community </span>.
-                    I have taught English in Spain and Spanish in the U.S., earned a B.A. in
-                    social science, worked with <span class="highlight"> refugees</span> from Nepal, Congo, Ethiopia and Mexico,
-                    and played <span class="highlight"> traditional music</span> on stages and at festivals in the U.S. and <span class="highlight"> Galicia</span>. </h3><br>
-                <h3 class="me">In continuing my focus on <span class="highlight"> social/entrepreneurial</span> endeavors, this past year I have
-                    concentrated on learning front-end development. I have come to realize that <span class="highlight"> programming</span> is the nexus of social connectivity,
-                    language and <span class="highlight"> technology</span>, and learning to be a <span class="highlight"> good programmer/designer</span> is my current objective.</h3>
-            </div>
-        </div>
-        <p><br><br><br><br><br><br><br><br><br><br><br><br></p>
-        </span>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="row">
-                    <h2>  </h2>
-                    <p><br><br><br><br><br><br><br><br><br><br><br><br></p>
-                        </div>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit CDbaby to purchase an album</a>
+                </h5>
+                <div class="one center">
                 </div>
             </div>
+
+            <!--end one-->
+            <div class="clear"></div>
+            <div class="one home_nav_img_content center">
+                <a href="index.html#bio" class="home_nav_img_content slow-scroll">
+                    <img class="home_nav_img" src="../static/img/chevron.png"/>
+                </a>
+            </div>
+            <!--end one-->
+            <div class="clear"></div>
         </div>
-    </section>
+        <!--end container-->
+</div>
+<!--end home-->
+<div class="clear"></div>
+<!--about-->
+<div class="section bio" id="bio">
+    <div class="container">
+        <div class="one center last">
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+        </div>
+        <div class="clear"></div>
+        <div class="one m_bottom_100 center last">
+            <p class="info">"We can be forgiven our orderliness,
+                but never: the taming of the free spirit of inquiry, nor the loss of enthusiasm,
+                nor the dimming of the vital spark of faith in our free ideals."<br><br>
+                —Josephine Whitney Duveneck</p>
+            <h5>&nbsp;</h5>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="one m_bottom_130 center last">
+            <div class="polaroid">
+
+  <img src="{% static 'img/profile.jpg' %}">
+
+</div>
+            <div><br><br><br>
+
+                <p class="info_about_me">
+                    I am a web developer and designer with a passion for art and a strong social conscience.
+                    In my past I have taught English in Spain and elementary school Spanish in the U.S. I've worked as
+                    a caregiver for people with physical and mental disabilities and as a tutor for refugees and newly
+                    resettled immigrants.
+                    Now I'm using my communication skills with the aim of creating user-experiences that are
+                    informative, aesthetically satisfying, easy-to use and helpful.
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="container-fluid content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h1 style="color: salmon">Contact Molly</h1>
-                <h3>Please feel free to get in touch!</h3>
-                <h4><a href="mailto:Mollydiana@gmail.com">Mollydiana@gmail.com</a>
-                </h4>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                <p class="info">&nbsp;</p>
+            </div>
+            <div class="clear"></div>
+            <div class="bio_img"></div>
+            <div class="two_third">
 
-                    </li>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<!--Morocco pic-->
 
-                </ul>
+<div class="clear"></div>
+
+<div class="full_width">
+    <div class="apps_full_screen_image background_fixed">
+        <div class="container center">
+            <div class="apps_full_screen_title">
+                <br><br><br>
+
+                <h2>
+                    i am passionate about web design and creating beautiful, simple, intuitive and user-friendly interfaces.
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+<!--portfolio-->
+
+
+<div class="section portfolio" id="print">
+    <div class="print_wrapper_top">
+
+        <div class="container">
+
+            <div class="one center last">
+            </div>
+            <div class="one m_bottom_100 center last">
+                <p class="sites">
+                    Here are some examples of websites and projects I've designed and built:</p>
+
+                <p>&nbsp;</p>
+{#                <h5>Click on the images to link to github and/or deployed sites</h5>#}
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <br>
+
+    <div class="bg_top_print_img center">
+
+        <ul id="portfolio-items" class="gallery">
+
+            <li class="example logos web">
+                <a href="http://www.dianavilar.com"><img class="projects" src="{% static 'img/Diana.png' %}" width="60"
+                                                         height="60" alt="Diana"/></a>
+            </li>
+
+            <li class="photos whatever">
+                <a href="http://polar-shelf-5724.herokuapp.com/"><img class="projects"
+                                                                      src="{% static 'img/donations.jpg' %}"
+                                                                      alt=""/></a></li>
+            <li class="web logos example">
+                <a class="preview" href="http://www.refugeeresources.com/"><img class="projects"
+                                                                                src="{% static 'img/ref.jpg' %}"
+                                                                                alt=""/></a>
+
+
+            </li>
+            <li class="example">
+                <a class="preview" href="https://github.com/Mollydiana/studentattendance"><img class="projects"
+                                                                                               src="{% static 'img/oldport.jpg' %}"
+                                                                                               alt=""/></a>
+
+            <li class="photos">
+                <a class="preview" href="https://github.com/Mollydiana/Wanderful"><img class="projects"
+                                                                                       src="{% static 'img/wanderful.png' %}"
+                                                                                       alt=""/></a></li>
+
+        </ul>
+    </div>
+    <div class="full_width">
+
+
+        <div class="clear"></div>
+        <div class="portfolio_gallery_bottom"></div>
+        <div class="clear"></div>
+        <div class="portfolio_full_screen_image background_fixed"></div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!--digital-->
+<div class="section about" id="digital">
+    <div class="digital_wrapper_top">
+        <div class="bg_top_digital_img center"><img style="height: 345px;
+             border: 2px solid white;" src="{% static 'img/mando.JPG' %}"/></div>
+
+        <div class="container">
+            <div class="one center last">
+            </div>
+            <div class="one m_bottom_100 center last">
+            </div>
+            <div class="clear"></div>
+            <div class="one m_bottom_90 center last">
+                <p class="music">
+                    I grew up in a family of musicians. I only dabbled in music until my early 20’s,
+                    when my father persuaded my brother and me to come with him as his backup band
+                    on a tour of Galicia (the celtic province in northwest Spain). <br><br>
+
+                    <iframe width="320" height="215" src="//www.youtube.com/embed/cQnUvZt7mvQ" frameborder="0"
+                            allowfullscreen></iframe>
+                    <iframe width="320" height="215" src="//www.youtube.com/embed/UcVK8jliv58" frameborder="0"
+                            allowfullscreen></iframe>
+                    <br><br>
+                    Although we were only supposed to be there for two weeks, I ended up staying for nearly three years.
+                    While I was there, I began to seriously play the mandolin, the fiddle and the accordion and was blessed to inherit a
+                    repertoire of songs and melodies that have been passed on for generations.
+                    I helped form a band and
+                    recorded a
+                    CD of traditional music.
+                    I brought the band back to the U.S.
+                    where we
+                    toured the West Coast, introducing many people to the wonderful and unique spirit of Galician
+                    culture.<br><br>
+                    <iframe width="420" height="315" src="//www.youtube.com/embed/yp_5b5Xo2YY" frameborder="0"
+                            allowfullscreen></iframe>
+                    <br><br>
+                    In 2012 I recorded an albumn with my mother, father and brother entitled 'The Family Carr'.
+                    On it we played traditional songs from Galicia, Ireland, Appalachia and Quebec.
+                </p>
+
+                <div class="cd_display">
+                    <img class='cds' src="{% static 'img/faiscas.jpg' %}"><br><br>
+                    <img class="cds" src="{% static 'img/familband.jpg' %}"/><br>
+                </div>
+                <br>
+                <a href="https://itunes.apple.com/us/album/as-faiscas/id393589672?uo=4" target="itunes_store"
+                   style="margin-right: 25%; display: inline-block; overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.png) no-repeat;width:110px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.svg);}"></a>
+
+                <a href="https://itunes.apple.com/us/album/the-family-carr/id566486716?uo=4" target="itunes_store"
+                   style="display: inline-block; overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.png) no-repeat;width:110px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.svg);}"></a>
+            </div>
+        </div>
+        <!--end container-->
+        <div class="clear"></div>
+    </div>
+    <div class="full_width">
+
+
+        <div class="clear"></div>
+        <div class="digital_gallery_bottom"></div>
+        <div class="clear"></div>
+        <div class="digital_full_screen_image background_fixed"></div>
+        <div class="clear"></div>
+    </div>
+    <!--end full_width-->
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+{#<!--photo-->#}
+<div class="section photo" id="photo">
+    <div class="photo_wrapper_top">
+
+        <div class="container">
+            <div class="one center last">
+            </div>
+            <div class="one m_bottom_100 center last">
+
+                <p>&nbsp;</p>
+            </div>
+            <div class="clear"></div>
+            <div class="one m_bottom_90 center last">
+                <p class="language_about">
+                    While living in Galicia from 2008-2011, I became more and more fascinated with its rich culture and
+                    language.
+                    I learned Spanish and Galego, the native Galician
+                    language. I became so fascinated by the peoples’ struggle to preserve their language and culture, that I made this short documentary
+                    so that I could share their story. <br><br>
+                    <iframe class="iframe_margin" width="540" height="375" src="//www.youtube.com/embed/2XOlgM_9fWk"
+                            frameborder="0" allowfullscreen></iframe>
+                    <br><br>
+                    <span class="bottom_language">The study of and teaching of languages nurtured my fascination with communication in general.
+                    I found myself drawn to different ways of communicating ideas artfully. At a certain point my
+                    interests grew to include computer languages and design.</span>
+                </p>
+            </div>
+            <div class="bg_top_photo_img center">
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--end container-->
+
+    <div class="clear"></div>
+    <div class="full_width">
+        <div class="photo_full_screen_image background_fixed">
+            <div class="container center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+
+
+<div class="section contact" id="contact">
+    <div class="contact_wrapper">
+        <div class="container">
+            <div class="one center last">
+            </div>
+            <div class="one m_bottom_100 center last">
+
+            </div>
+            <div class="clear"></div>
+            <div class="one m_bottom_90 center last"><br><br>
+
+                <h2>
+                    Get in Touch!
+                </h2>
+                <br>
+
+                <p class="in_touch">Feel free to contact me:</p>
+
+            </div>
+            <div class="clear"></div>
+            <div class="clear"></div>
+            <div class="one m_top_60 m_bottom_70">
+                <div class="socio_contact">
+                    <a href="https://www.facebook.com/molly.carr.5"><img class="socio_button"
+                                                                         src="{% static 'img/logos/Facebook Round.png' %}"/>
+                        <a href="https://plus.google.com/u/0/105661497851341316830"><img class="socio_button"
+                                                                                         src="{% static 'img/logos/Google plus round.png' %}"/></a>
+                        <a href="http://instagram.com/mollydiana1/"><img class="socio_button"
+                                                                         src="{% static 'img/logos/Instagram round.png' %}"/></a>
+                        <a href="http://instagram.com/mollydiana1/"><img class="socio_button"
+                                                                         src="{% static 'img/logos/Linkedin round.png' %}"/></a>
+                        <a href="https://twitter.com/Mollydcarr"><img class="socio_button"
+                                                                      src="{% static 'img/logos/Twitter round.png' %}"/></a>
+                        <a href="https://www.youtube.com/user/mollydiana/featured?view_as=public"><img
+                                class="socio_button" src="{% static 'img/logos/Youtube round.png' %}"/></a>
+
+                        <div class="clear"></div>
+
+                    </a></div>
+                <br>
+
+                <div class="clear"></div>
             </div>
         </div>
 
-    </section>
+        <div class="full-width line-height"></div>
 
-    <!-- Map Section -->
-    <div id="pic"></div>
+        <footer>
+            <div class="container center">
+                <div class="copyright">
+                    <p>Copyright 2014 MollydCarr.com</p><br>
+                </div>
+            </div>
+        </footer>
+        <script>
+            $(function () {
+                $('.ch-item').bind('hover', function (e) {
+                });
+            });
+        </script>
 
-    <!-- Footer -->
-    <footer style="background-color: #000000">
-        <div class="container text-center">
-            <p>Copyright &copy; Molly Carr 2014</p>
-        </div>
-    </footer>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
 
 </body>
-
 </html>
