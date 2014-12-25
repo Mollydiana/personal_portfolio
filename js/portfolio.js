@@ -98,3 +98,4 @@ jQuery(window).resize(function(){
 
     jQuery("#portfolio-items").children().width(elemnt_width);
 });
+

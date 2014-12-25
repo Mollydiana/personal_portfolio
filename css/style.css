@@ -226,6 +226,10 @@ div.main_menu nav ul li.active a {
 .title {
     padding-bottom: 30px;
 }
+.mobile_title {
+    padding-bottom: 30px;
+    font-size: 21px;
+}
 
 .home_nav_img_content {
     margin-top: 100px;
