@@ -624,6 +624,7 @@ ul.polaroids a {
     display: inline-flex;
 }
 
+
 .digital_wrapper_top {
     background-color: #000000;
     padding-top: 90px;
@@ -750,7 +751,6 @@ ul.polaroids a {
 .bg_top_photo_img {
     width: 100%;
     min-height: 560px;
-    /*background: transparent url("../img/paint.jpg") no-repeat;*/
     background-position: center;
     -webkit-background-size: contain; /* Safari and Chrome */
     -moz-background-size: contain; /* Firefox */
@@ -759,108 +759,6 @@ ul.polaroids a {
     background-size: contain; /* CSS3 */
 }
 
-/*.full_width_photo {*/
-/*padding-top: 150px;*/
-/*padding-bottom: 55px;*/
-/*background-color: cadetblue;*/
-/*}*/
-
-/*div.photo_work_image_slider_holder {*/
-/*margin-left: 0;*/
-/*width: auto;*/
-/*position: relative;*/
-/*}*/
-
-/*.photo_work_image_slider {*/
-/*position: absolute;*/
-/*display: block;*/
-/*font: 22px/1.36em "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*letter-spacing: -0.02em;*/
-/*}*/
-
-/*ul#photo_work_image_slider li {*/
-/*font-size: 0;*/
-/*line-height: 0;*/
-/*}*/
-
-/*a#photo_work_prev {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*left: 20px;*/
-/*}*/
-
-/*a#photo_work_next {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*right: 20px;*/
-/*}*/
-
-/*.photo_work_image_slider {*/
-/*color: ghostwhite;*/
-/*}*/
-
-/*.full_width_photos {*/
-/*padding-top: 150px;*/
-/*padding-bottom: 55px;*/
-/*background-color: gainsboro;*/
-/*}*/
-
-/*div.photos_work_image_slider_holder {*/
-/*margin-left: 0;*/
-/*width: auto;*/
-/*position: relative;*/
-/*}*/
-
-/*.photos_work_image_slider {*/
-/*position: absolute;*/
-/*display: block;*/
-/*font: 22px/1.36em "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*letter-spacing: -0.02em;*/
-/*}*/
-
-/*ul#photos_work_image_slider li {*/
-/*font-size: 0;*/
-/*line-height: 0;*/
-/*}*/
-
-/*a#photos_work_prev {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*left: 20px;*/
-/*}*/
-
-/*a#photos_work_next {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*right: 20px;*/
-/*}*/
-
-/*.photos_work_image_slider {*/
-/*color: #ffffff;*/
-/*}*/
-
-/*.photo_full_screen_image {*/
-/*width: 100%;*/
-/*height: 1054px;*/
-/*color: #fdfef9;;*/
-/*background-image: url(../img/grass.JPG);*/
-/*background-position: center;*/
-/*background-repeat: no-repeat;*/
-/*background: cover;*/
-/*text-shadow: -1px -1px 19px #000;*/
-
-/*}*/
-
-/*.blog_full_screen_title {*/
-/*padding-top: 253px;*/
-/*font-size: 40px;*/
-/*margin-bottom: 200px;*/
-/*}*/
-
-/*.info#upsell {*/
-/*margin-top: 40px;*/
-
-/*}*/
 
 /* contact
 ================================================== */
