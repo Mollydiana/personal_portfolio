@@ -131,6 +131,9 @@ function sizes() {
             'background-size': 'auto',
             'background-position': 'top'
         }));
+        $(".iframe_margin").css(({
+            'margin-left': '-120px'
+        }));
 
 
     }
@@ -187,8 +190,13 @@ function sizes() {
             'webkit-background-size': 'contain',
             'overflow': 'hidden',
             'background-size': 'cover',
-            'background-position': 'center'
+            'background-position': '50% 50%'
+        }));
+        $(".iframe_margin").css(({
+            'margin-left': '0px'
         }));
     }
 }
+
+
 

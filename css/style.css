@@ -821,7 +821,6 @@ ul.polaroids a {
     margin-left: 4%;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.4);
     border-radius: 100%;
-    margin-top: -40px;
 }
 
 .socio_contact:active {
@@ -832,7 +831,10 @@ ul.polaroids a {
     background-position: left bottom;
 }
 
-.
+.contacts{
+    margin-top: -100px;
+    margin-left: 25px;
+}
 
 /* footer
 ================================================== */
@@ -842,7 +844,7 @@ footer {
 
 .copyright p {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 137px;
     font: 16px/1.94em "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: -0.02em;
     color: #3d3d3a;
