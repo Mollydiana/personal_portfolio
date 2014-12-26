@@ -84,8 +84,10 @@ function sizes() {
             'margin-left': '527px',
             'margin-top': '-57px',
             'visibility': 'visible'
-
-        }))
+        }));
+        $("#portfolio-items").css(({
+            'margin-left': '25%'
+        }));
     }
     else if (width > 640) {
         $(".m_carr_header").css(({
@@ -104,6 +106,9 @@ function sizes() {
         }));
         $(".title").css(({
             'visibility': 'visible'
+        }));
+        $("#portfolio-items li").css(({
+            'margin-left': '3%'
         }));
     }
 }
