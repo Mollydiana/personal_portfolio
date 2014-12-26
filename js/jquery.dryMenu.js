@@ -46,7 +46,7 @@ $(window).bind("scroll", function () {
 
 $(window).resize(function () {
     if ($(window).width() < 522) {
-        $(".top_background").css('margin-bottom', '-455px');
+        $(".top_background").css('margin-bottom', '-312px');
     }
     else {
         $(".top_background").css('margin-bottom', '0');
@@ -88,6 +88,13 @@ function sizes() {
         $("#portfolio-items").css(({
             'margin-left': '25%'
         }));
+        $(".portfolio_full_screen_image").css(({
+            'visibility': 'hidden',
+            'height': '0px'
+        }));
+        $(".sites").css(({
+            'margin-bottom': '-95px'
+        }))
     }
     else if (width > 640) {
         $(".m_carr_header").css(({
@@ -107,10 +114,12 @@ function sizes() {
         $(".title").css(({
             'visibility': 'visible'
         }));
-        $("#portfolio-items li").css(({
-            'margin-left': '3%'
+        $("#portfolio-items").css(({
+            'margin-left': '2%'
+        }));
+        $(".portfolio_full_screen_image").css(({
+            'visibility':'visible'
         }));
     }
 }
-
 
