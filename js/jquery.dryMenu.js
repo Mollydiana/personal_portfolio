@@ -94,7 +94,45 @@ function sizes() {
         }));
         $(".sites").css(({
             'margin-bottom': '-95px'
-        }))
+        }));
+        $(".i_vid_1").css(({
+            'margin-left': '-25px',
+            'margin-right': '50px'
+        }));
+        $(".i_vid_2").css(({
+            'margin-left': '-25px'
+        }));
+        $(".i_vid_3").css(({
+            'margin-left': '-62px'
+        }));
+        $(".cd_display").css(({
+            'display': 'block',
+            'margin-left': '-35px',
+            'margin-bottom': '-20px'
+        }));
+        $(".cds").css(({
+            'margin-bottom': '-20px'
+        }));
+        $(".cd_normal").css(({
+            'visibility': 'hidden',
+            'height': '40px'
+        }));
+        $(".cd_small").css(({
+            'visibility': 'visible',
+            'height': 'auto'
+        }));
+        $(".music").css(({
+            'margin-bottom': '-130px'
+        }));
+        $(".photo_wrapper_top").css(({
+            'height': '100%',
+            'webkit-background-size': 'none',
+            'overflow': 'visible',
+            'background-size': 'auto',
+            'background-position': 'top'
+        }));
+
+
     }
     else if (width > 640) {
         $(".m_carr_header").css(({
@@ -118,7 +156,38 @@ function sizes() {
             'margin-left': '2%'
         }));
         $(".portfolio_full_screen_image").css(({
-            'visibility':'visible'
+            'visibility': 'visible'
+        }));
+        $(".i_vid_1").css(({
+            'margin-left': 'auto',
+            'margin-right': 'auto'
+        }));
+        $(".i_vid_2").css(({
+            'margin-left': 'auto'
+        }));
+        $(".i_vid_3").css(({
+            'margin-left': 'auto'
+        }));
+        $(".cd_display").css(({
+            'display': 'inline-flex'
+        }));
+        $(".cd_small").css(({
+            'visibility': 'hidden',
+            'height': '20px'
+        }));
+        $(".cd_normal").css(({
+            'visibility': 'visible',
+            'height': 'auto'
+        }));
+        $(".music").css(({
+            'margin-bottom': '36px'
+        }));
+        $(".photo_wrapper_top").css(({
+            'height': '100%',
+            'webkit-background-size': 'contain',
+            'overflow': 'hidden',
+            'background-size': 'cover',
+            'background-position': 'center'
         }));
     }
 }
