@@ -247,11 +247,6 @@ a.home_nav_img_content:hover {
     margin-bottom: 50px;
 }
 
-.projects {
-    border-radius: 100%;
-
-}
-
 /* service
 ================================================== */
 .bio {
@@ -510,7 +505,7 @@ ul.polaroids a {
     -ms-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    border-radius: 100%;
+/*    border-radius: 100%;*/
 }
 
 .portfolio {
@@ -532,8 +527,6 @@ ul.polaroids a {
     position: relative;
     line-height: 0;
     margin-left: 2%;
-    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.4);
-    border-radius: 100%;
     margin-top: 38px;
 }
 
@@ -541,11 +534,22 @@ ul.polaroids a {
     width: 100%;
     height: auto;
 }
+.sites_info{
+	font-size: 18px;
+line-height: 25px;
+font-weight: 700;
+margin-bottom: 16px;
+text-align: left;
+	color: darkgrey;
 
+text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
 #digital-items {
     height: auto !important;
 }
-
+.projects {
+	margin-top: 25px
+}
 #digital-items li {
     float: left;
     font-size: 0;
