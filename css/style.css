@@ -263,6 +263,7 @@ a.home_nav_img_content:hover {
     font: 48px/1.15em 'Open Sans condensed';
     word-wrap: break-word;
     margin-top: 7%;
+	color: white;
 }
 
 .info_about_me {
@@ -557,7 +558,7 @@ line-height: 25px;
 font-weight: 700;
 margin-bottom: 16px;
 text-align: left;
-	color: black;
+	color: lightgray;
 
 text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
@@ -608,9 +609,43 @@ text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     height: 990px;
     width: 100%;
+	
+}
+
+.example_wireframes:hover {
+    height: 130px;
+}
+
+.example_wireframes {
+	height: 112px;
+/*	background-clip: border-box;*/
+	transition: height 0.4s;
+	transition-timing-function: cubic-bezier(.07,.82,.82,.82);
+    cursor: pointer;
+	margin-bottom: 23px;
+	-webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -ms-transition:0.2s;
+    -o-transition:0.2s;
+    transition:0.2s;
+
 }
 
 
+.test {
+    height: 400px;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+
+}
+
+.test:hover {
+    height: 400px;
+
+}
 
 /* about
 ================================================== */
