@@ -66,6 +66,13 @@ $(window).load(function () {
 function sizes() {
     var width = $(window).width();
     if (width < 640) {
+		$(".mobile_title").css(({
+            'padding-bottom': '30px',
+            'font-size': '21px',
+            'margin-left': '527px',
+            'margin-top': '-57px',
+            'visibility': 'visible'
+        }));
         $(".m_carr_header").css(({
             'height': '84px',
             'margin-top': '-40px',
@@ -77,13 +84,6 @@ function sizes() {
         }));
         $(".title").css(({
             'visibility': 'hidden'
-        }));
-        $(".mobile_title").css(({
-            'padding-bottom': '30px',
-            'font-size': '21px',
-            'margin-left': '527px',
-            'margin-top': '-57px',
-            'visibility': 'visible'
         }));
         $("#portfolio-items").css(({
             'margin-left': '25%'

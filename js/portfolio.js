@@ -74,6 +74,10 @@ $(document).ready(function() {
         $('*').removeClass('active-items');
         return false;
     });
+
+	$("img").click(function() {
+    $(this).toggleClass("test");    
+});
 });
 
 
@@ -98,4 +102,6 @@ jQuery(window).resize(function(){
 
     jQuery("#portfolio-items").children().width(elemnt_width);
 });
+
+
 
