@@ -75,7 +75,7 @@ $(document).ready(function() {
         return false;
     });
 
-	$("img").click(function() {
+	$(".example_wireframes").click(function() {
     $(this).toggleClass("test");    
 });
 });
