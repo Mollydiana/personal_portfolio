@@ -297,14 +297,16 @@ a.home_nav_img_content:hover {
 }
 
 .processpics{
-width: 19%;
-margin-top: 10%;
+	width: 19%;
+	margin-top: 10%;
 
 }
 
 .processpics:hover {
-width: 22%;
-margin-top: 10%;
+	width: 22%;
+	margin-top: 10%;
+	transition: height 0.4s;
+	transition-timing-function: cubic-bezier(.07,.82,.82,.82);
 
 }
 
@@ -648,6 +650,21 @@ text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 .test:hover {
     height: 400px;
 
+}
+
+.sketch_test {
+	height: 40%;
+	width: 40%;
+}
+
+.sketch_test:hover {
+	height: 40%;
+	width: 40%;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
 }
 
 /* about
