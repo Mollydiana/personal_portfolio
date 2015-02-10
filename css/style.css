@@ -298,7 +298,12 @@ a.home_nav_img_content:hover {
 
 .processpics{
 width: 19%;
+margin-top: 10%;
 
+}
+
+.processpics:hover {
+width: 22%;
 margin-top: 10%;
 
 }
