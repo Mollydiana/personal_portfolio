@@ -1,4 +1,8 @@
 body {
+	max-width: 100%;
+    overflow-x: hidden;
+	width: auto;
+		
 
 }
 
@@ -84,16 +88,6 @@ div.main_menu {
     transition: background .9s ease-in-out, padding .9s ease-in-out;
     background-color: #000;
 }
-
-/*.logo {*/
-/*position: fixed;*/
-/*width: 200px;*/
-/*margin-top: 8px;*/
-/*height: 70px;*/
-/*background-image: url("../img/Paint-Brush-psd50308.png");*/
-/*background-repeat: no-repeat;*/
-/*display: none;*/
-/*}*/
 
 .summary {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -237,7 +231,6 @@ div.main_menu nav ul li.active a {
 }
 
 a.home_nav_img_content:hover {
-    /*background-position: left bottom;*/
     -webkit-filter: invert(40%);
     filter: invert(40%);
 }
