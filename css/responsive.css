@@ -35,7 +35,7 @@
 
 }
 
-@media only screen and (max-width: 766px) {
+@media (max-width: 766px) {
     .section_icon {
         margin-top: 145px;
     }
@@ -157,7 +157,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media (min-width: 767px) {
 
     h1 {
         font-size: 80px;
