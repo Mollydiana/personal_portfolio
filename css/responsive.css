@@ -35,7 +35,7 @@
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 766px) {
     .section_icon {
         margin-top: 145px;
     }
@@ -71,6 +71,90 @@
         padding-top: 220px;
     }
 
+    .mobile_title {
+        padding-bottom: 30px;
+        font-size: 21px;
+        margin-left: 527px;
+        margin-top: -57px;
+        visibility: visible;
+    }
+
+    .m_carr_header {
+        height: 84px;
+        margin-top: -40px;
+        margin-left: 481px;
+
+    }
+
+    .strip {
+        background: none;
+    }
+
+    .title {
+        visibility: hidden;
+    }
+
+    #portfolio-items {
+        margin-left: 25%;
+    }
+
+    .portfolio_full_screen_image {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .sites {
+        margin-bottom: -95px;
+    }
+
+    .i_vid_1 {
+        margin-left: -25px;
+        margin-right: 50px;
+    }
+
+    .i_vid_2 {
+        margin-left: -25px;
+    }
+
+    .i_vid_3 {
+        margin-left: -62px;
+    }
+
+    .cd_display {
+        display: block;
+        margin-left: -35px;
+        margin-bottom: -20px;
+    }
+
+    .cds {
+        margin-bottom: -20px;
+    }
+
+    .cd_normal {
+        visibility: hidden;
+        height: 40px;
+    }
+
+    .cd_small {
+        visibility: visible;
+        height: auto;
+    }
+
+    .music {
+        margin-bottom: -130px;
+    }
+
+    .photo_wrapper_top {
+        height: 100%;
+        webkit-background-size: none;
+        overflow: visible;
+        background-size: auto;
+        background-position: top;
+    }
+
+    .iframe_margin {
+        margin-left: -120px
+    }
 }
 
 @media only screen and (min-width: 767px) {

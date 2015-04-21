@@ -134,24 +134,7 @@ div.main_menu nav ul li a:hover {
 div.main_menu nav ul li.active a {
     color: #db8e77;
 }
-/*@media (max-width: 640px) {*/
-    /*.mobile_title {*/
-        /*visibility: hidden;*/
 
-    /*}*/
-    /*.title {*/
-        /*visibility: visible;*/
-    /*}*/
-/*}*/
-    /*@media (min-width: 641px) {*/
-    /*.mobile_title {*/
-        /*visibility: visible;*/
-
-    /*}*/
-    /*.title {*/
-        /*visibility: hidden;*/
-    /*}*/
-/*}*/
 /* small menu
 ================================================== */
 .small-menu-wrapper {
