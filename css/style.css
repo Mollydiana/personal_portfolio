@@ -218,7 +218,8 @@ div.main_menu nav ul li.active a {
 }
 .mobile_title {
     padding-bottom: 30px;
-    font-size: 21px;
+    font-size: 1em;
+    text-align: center;
 }
 
 .home_nav_img_content {
@@ -345,7 +346,7 @@ a.home_nav_img_content:hover {
     margin-top: 100px;
     min-height: 450px;
     margin-bottom: 100px;
-    background: transparent url(../img/accordion.jpeg) no-repeat;
+    /*background: transparent url(../img/accordion.jpeg) no-repeat;*/
     background-position: center;
     -webkit-background-size: contain; /* Safari and Chrome */
     -moz-background-size: contain; /* Firefox */
@@ -842,7 +843,7 @@ text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact a:link, a:visited, a:active {
-    color: b1;
+    color: #000000;
     text-decoration: none;
 }
 
