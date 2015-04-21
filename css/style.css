@@ -1,5 +1,5 @@
 body {
-
+	max-width: 100%;
 }
 
 h1 {
@@ -84,16 +84,6 @@ div.main_menu {
     transition: background .9s ease-in-out, padding .9s ease-in-out;
     background-color: #000;
 }
-
-/*.logo {*/
-/*position: fixed;*/
-/*width: 200px;*/
-/*margin-top: 8px;*/
-/*height: 70px;*/
-/*background-image: url("../img/Paint-Brush-psd50308.png");*/
-/*background-repeat: no-repeat;*/
-/*display: none;*/
-/*}*/
 
 .summary {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -226,6 +216,11 @@ div.main_menu nav ul li.active a {
 .title {
     padding-bottom: 30px;
 }
+.mobile_title {
+    padding-bottom: 30px;
+    font-size: 1em;
+    text-align: center;
+}
 
 .home_nav_img_content {
     margin-top: 100px;
@@ -233,7 +228,6 @@ div.main_menu nav ul li.active a {
 }
 
 a.home_nav_img_content:hover {
-    /*background-position: left bottom;*/
     -webkit-filter: invert(40%);
     filter: invert(40%);
 }
@@ -241,11 +235,6 @@ a.home_nav_img_content:hover {
 .section_icon {
     margin-top: 70px;
     margin-bottom: 50px;
-}
-
-.projects {
-    border-radius: 100%;
-
 }
 
 /* service
@@ -264,6 +253,7 @@ a.home_nav_img_content:hover {
     font: 48px/1.15em 'Open Sans condensed';
     word-wrap: break-word;
     margin-top: 7%;
+	color: white;
 }
 
 .info_about_me {
@@ -288,12 +278,34 @@ a.home_nav_img_content:hover {
 
 }
 
+#process {
+	font: 48px/1.15em 'Open Sans condensed';
+    word-wrap: break-word;
+	margin-top: 1%;
+	margin-bottom: 4%;
+	text-align: center	
+}
+
+.processpics{
+	width: 19%;
+	margin-top: 10%;
+
+}
+
+.processpics:hover {
+	width: 22%;
+	margin-top: 10%;
+	transition: height 0.4s;
+	transition-timing-function: cubic-bezier(.07,.82,.82,.82);
+
+}
+
 .polaroid {
 
     position: relative;
     width: 401px;
     margin-bottom: -72px;
-    margin-top: -162px;
+    margin-top: -72px;
     margin-left: -15%;
     -webkit-transform: rotate(-5deg);
 }
@@ -334,7 +346,7 @@ a.home_nav_img_content:hover {
     margin-top: 100px;
     min-height: 450px;
     margin-bottom: 100px;
-    background: transparent url(../img/accordion.jpeg) no-repeat;
+    /*background: transparent url(../img/accordion.jpeg) no-repeat;*/
     background-position: center;
     -webkit-background-size: contain; /* Safari and Chrome */
     -moz-background-size: contain; /* Firefox */
@@ -491,7 +503,7 @@ ul.polaroids a {
 }
 
 .print_wrapper_top {
-    background-color: #3f3a39;
+    background-color: #044249;
     padding-top: 90px;
     margin: 0 auto;
 }
@@ -506,12 +518,12 @@ ul.polaroids a {
     -ms-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    border-radius: 100%;
+/*    border-radius: 100%;*/
 }
 
 .portfolio {
-    background-color: #3f3a39;
-    color: #ffffff;
+    background-color: #044249;
+    color: black;
 }
 
 .portfolio .info {
@@ -527,9 +539,7 @@ ul.polaroids a {
     font-size: 0;
     position: relative;
     line-height: 0;
-    margin-left: 3%;
-    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.4);
-    border-radius: 100%;
+    margin-left: 2%;
     margin-top: 38px;
 }
 
@@ -537,11 +547,22 @@ ul.polaroids a {
     width: 100%;
     height: auto;
 }
+.sites_info{
+	font-size: 18px;
+line-height: 25px;
+font-weight: 700;
+margin-bottom: 16px;
+text-align: left;
+	color: lightgray;
 
+text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
 #digital-items {
     height: auto !important;
 }
-
+.projects {
+	margin-top: 25px
+}
 #digital-items li {
     float: left;
     font-size: 0;
@@ -583,12 +604,57 @@ ul.polaroids a {
     background-repeat: no-repeat;
     height: 990px;
     width: 100%;
+	
 }
 
-.portfolio_gallery_bottom {
-    width: 100%;
-    height: 65px;
-    background-color: #3f3a39;
+.example_wireframes:hover {
+    height: 130px;
+}
+
+.example_wireframes {
+	height: 112px;
+/*	background-clip: border-box;*/
+	transition: height 0.4s;
+	transition-timing-function: cubic-bezier(.07,.82,.82,.82);
+    cursor: pointer;
+	margin-bottom: 23px;
+	-webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -ms-transition:0.2s;
+    -o-transition:0.2s;
+    transition:0.2s;
+
+}
+
+
+.test {
+    height: 400px;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+
+}
+
+.test:hover {
+    height: 400px;
+
+}
+
+.sketch_test {
+	height: 40%;
+	width: 40%;
+}
+
+.sketch_test:hover {
+	height: 40%;
+	width: 40%;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
 }
 
 /* about
@@ -619,6 +685,7 @@ ul.polaroids a {
 .itunes {
     display: inline-flex;
 }
+
 
 .digital_wrapper_top {
     background-color: #000000;
@@ -715,7 +782,7 @@ ul.polaroids a {
 
 .photo_wrapper_top {
     width: 100%;
-    background: transparent url("../img/bagpic%20copy.jpg") no-repeat;
+    background: transparent url("../img/bagpicture.jpg") no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -ms-background-size: contain;
@@ -746,7 +813,6 @@ ul.polaroids a {
 .bg_top_photo_img {
     width: 100%;
     min-height: 560px;
-    /*background: transparent url("../img/paint.jpg") no-repeat;*/
     background-position: center;
     -webkit-background-size: contain; /* Safari and Chrome */
     -moz-background-size: contain; /* Firefox */
@@ -755,108 +821,6 @@ ul.polaroids a {
     background-size: contain; /* CSS3 */
 }
 
-/*.full_width_photo {*/
-/*padding-top: 150px;*/
-/*padding-bottom: 55px;*/
-/*background-color: cadetblue;*/
-/*}*/
-
-/*div.photo_work_image_slider_holder {*/
-/*margin-left: 0;*/
-/*width: auto;*/
-/*position: relative;*/
-/*}*/
-
-/*.photo_work_image_slider {*/
-/*position: absolute;*/
-/*display: block;*/
-/*font: 22px/1.36em "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*letter-spacing: -0.02em;*/
-/*}*/
-
-/*ul#photo_work_image_slider li {*/
-/*font-size: 0;*/
-/*line-height: 0;*/
-/*}*/
-
-/*a#photo_work_prev {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*left: 20px;*/
-/*}*/
-
-/*a#photo_work_next {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*right: 20px;*/
-/*}*/
-
-/*.photo_work_image_slider {*/
-/*color: ghostwhite;*/
-/*}*/
-
-/*.full_width_photos {*/
-/*padding-top: 150px;*/
-/*padding-bottom: 55px;*/
-/*background-color: gainsboro;*/
-/*}*/
-
-/*div.photos_work_image_slider_holder {*/
-/*margin-left: 0;*/
-/*width: auto;*/
-/*position: relative;*/
-/*}*/
-
-/*.photos_work_image_slider {*/
-/*position: absolute;*/
-/*display: block;*/
-/*font: 22px/1.36em "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*letter-spacing: -0.02em;*/
-/*}*/
-
-/*ul#photos_work_image_slider li {*/
-/*font-size: 0;*/
-/*line-height: 0;*/
-/*}*/
-
-/*a#photos_work_prev {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*left: 20px;*/
-/*}*/
-
-/*a#photos_work_next {*/
-/*position: absolute;*/
-/*top: 40%;*/
-/*right: 20px;*/
-/*}*/
-
-/*.photos_work_image_slider {*/
-/*color: #ffffff;*/
-/*}*/
-
-/*.photo_full_screen_image {*/
-/*width: 100%;*/
-/*height: 1054px;*/
-/*color: #fdfef9;;*/
-/*background-image: url(../img/grass.JPG);*/
-/*background-position: center;*/
-/*background-repeat: no-repeat;*/
-/*background: cover;*/
-/*text-shadow: -1px -1px 19px #000;*/
-
-/*}*/
-
-/*.blog_full_screen_title {*/
-/*padding-top: 253px;*/
-/*font-size: 40px;*/
-/*margin-bottom: 200px;*/
-/*}*/
-
-/*.info#upsell {*/
-/*margin-top: 40px;*/
-
-/*}*/
 
 /* contact
 ================================================== */
@@ -879,7 +843,7 @@ ul.polaroids a {
 }
 
 .contact a:link, a:visited, a:active {
-    color: b1;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -919,7 +883,6 @@ ul.polaroids a {
     margin-left: 4%;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.4);
     border-radius: 100%;
-    margin-top: -40px;
 }
 
 .socio_contact:active {
@@ -930,7 +893,10 @@ ul.polaroids a {
     background-position: left bottom;
 }
 
-.
+.contacts{
+    margin-top: -100px;
+    margin-left: 25px;
+}
 
 /* footer
 ================================================== */
@@ -940,7 +906,7 @@ footer {
 
 .copyright p {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 137px;
     font: 16px/1.94em "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: -0.02em;
     color: #3d3d3a;
