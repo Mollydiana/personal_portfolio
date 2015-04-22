@@ -71,12 +71,10 @@
         padding-top: 220px;
     }
 
-    .mobile_title {
+    .title {
         padding-bottom: 30px;
         font-size: 21px;
         margin-left: 527px;
-        margin-top: -57px;
-        visibility: visible;
     }
 
     .m_carr_header {
@@ -90,9 +88,9 @@
         background: none;
     }
 
-    .title {
-        visibility: hidden;
-    }
+    /*.title {*/
+        /*visibility: hidden;*/
+    /*}*/
 
     #portfolio-items {
         margin-left: 25%;
