@@ -3,11 +3,7 @@ body
 }
 .container
 {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 940px;
+	text-align: center;
 }
 .one,
 .one_third,
@@ -33,7 +29,7 @@ body
 }
 .one
 {
-	width: 940px;
+	width: 100%;
 	margin-right: 0px !important;
 }
 .one_third
@@ -98,14 +94,14 @@ body
 	.one_third,
 	.two_third,
 	.one_half,
-	.column_540 {margin-right: 0px;}
+	.column_540 {margin-right: 0;}
 
 	.container	{width: 280px;}
 	.container .one,
 	.container .one_third,
 	.container .two_third,
 	.container .one_half,
-	.container .column_540  {width: 280px;}
+	.container .column_540  {width: 100%}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px)
@@ -114,7 +110,7 @@ body
 	.one_third,
 	.two_third,
 	.one_half,
-	.column_540 {margin-right: 0px;}
+	.column_540 {margin-right: 0;}
 
 	.container	{width: 420px;}
 	.container .one,
