@@ -195,7 +195,7 @@ var StringFormat = function() {
         s = s.replace(regExpression, arguments[i + 1]);
     }
     return s;
-}
+    };
 
 function is_touch_device() {
   return !!('ontouchstart' in window);

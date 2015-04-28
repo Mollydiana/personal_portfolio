@@ -9,76 +9,75 @@
     <link rel="shortcut icon" href="img/favmc.png" type="image/x-icon">
     <link rel="icon" href="img/favmc.png" type="image/x-icon">
     <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/clear.css"/>
-    <link type="text/css" rel="stylesheet" href="css/thegrid.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="css/thegrid.css"/>-->
     <link type="text/css" rel="stylesheet" href="css/common.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
 
 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie|Amatic+SC:400,700|Open+Sans+Condensed:300|Patrick+Hand+SC|Just+Me+Again+Down+Here|Covered+By+Your+Grace'
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie|Amatic+SC:400,700|Open+Sans+Condensed:300|Open+Sans:400,300'
           rel='stylesheet' type='text/css'>
 
 
-    <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.myHint.js"></script>
-    <script type="text/javascript" src="js/ajax.js"></script>
-    <script type="text/javascript" src="js/small-menu.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.myHint.js"></script>-->
+    <!--<script type="text/javascript" src="js/ajax.js"></script>-->
+    <!--<script type="text/javascript" src="js/small-menu.js"></script>-->
     <script type="text/javascript" src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
-    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>-->
     <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-    <script type="text/javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/portfolio.js"></script>
-    <script type="text/javascript" src="js/portfolio2.js"></script>
-    <script type="text/javascript" src="js/prettyPhoto_initialize.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
+    <!--<script type="text/javascript" src="js/portfolio.js"></script>-->
+    <!--<script type="text/javascript" src="js/portfolio2.js"></script>-->
+    <!--<script type="text/javascript" src="js/prettyPhoto_initialize.js"></script>-->
     <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/jquery.dryMenu.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.sticky.js"></script>-->
+    <script type="text/javascript" src="js/slowscroll.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/mainb.js"></script>
+    <!--<script type="text/javascript" src="js/mainb.js"></script>-->
+
 
 </head>
 
-<body id="page-top" data-target=".navbar-fixed-top">
+<body>
 
 <!--Home-->
-<div class="section home top_background" style="width: 100%;
-    color: black;
-    background-image: url('img/Window%20copy.jpg');
-    opacity: 47;
-    background-position: center bottom -25%;
-    background-repeat: no-repeat;
-    background-color: black;" id="home">
-    <!--Navigation Menu-->
+<div data-target=".navbar-fixed-top" class="section home top_background" id="home">
 
-
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-
-        <div id="main_menu" class="collapse navbar-collapse navbar-right navbar-main-collapse main_menu">
-            <div class="container nav navbar-nav">
-                <nav class="right">
-                    <ul>
-                        <li class="active"><a href="index.html#page-top">Home</a></li>
-                        <li><a href="index.html#bio">About me</a></li>
-                        <li><a href="index.html#print">Web design</a></li>
-                        <li><a href="index.html#wireframes">UX/UI</a></li>
-                        <li><a href="index.html#digital">Music/Language</a></li>
-                        <li class="last"><a href="index.html#contact">Contact</a></li>
-                    </ul>
-                </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#bio">About me</a></li>
+                    <li><a href="index.html#designs">Web design</a></li>
+                    <li><a href="index.html#wireframes">UX/UI</a></li>
+                    <li class="last"><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
     </nav>
+
     <div class="container">
         <div class="one m_top_185 center">
             <h5 class="header">
                 <div class="strip">
                     <img class="m_carr_header" src="img/MollyCarrlogo.png" alt="">
 
-                    <p class="title">WEB DEVELOPER + DESIGNER </p>
+                    <p class="title">WEB DESIGNER &nbsp + &nbsp DEVELOPER </p>
 
                 </div>
             </h5>
@@ -114,43 +113,39 @@
         </div>
         <div class="clear"></div>
         <div class="one m_bottom_100 center last">
-            <p class="info">"We can be forgiven our orderliness,
-                but never: the taming of the free spirit of inquiry, nor the loss of enthusiasm,
-                nor the dimming of the vital spark of faith in our free ideals."<br><br>
-                —Josephine Whitney Duveneck</p>
+            <p class="info">"Good design is a renaissance attitude that combines technology, cognitive science,
+                human need, and beauty to produce something that the world didn’t know it was missing."<br><br>
+                —Paola Antonelli</p>
             <h5>&nbsp;</h5>
-        </div>
-
-        <div class="clear"></div>
-
-        <div class="one m_bottom_130 center last">
-            <div class="polaroid">
-
-                <img src="img/profile.jpg" alt="">
-
-            </div>
-            <div><br><br><br>
-
-                <p class="info_about_me">
-                    I am a web developer and designer with a passion for art and a strong social conscience.
-                    In my past I have taught English in Spain and elementary school Spanish in the U.S. I've worked as
-                    a caregiver for people with physical and mental disabilities and as a tutor for refugees and newly
-                    resettled immigrants.
-                    Now I'm using my communication skills with the aim of creating user-experiences that are
-                    informative, aesthetically satisfying, easy-to use and helpful.
-
-
-                <p class="info">&nbsp;</p>
-            </div>
-            <div class="clear"></div>
-            <div class="bio_img"></div>
-            <div class="two_third">
-
-            </div>
-            <div class="clear"></div>
         </div>
     </div>
 </div>
+<div class="clear"></div>
+
+<div class="section bio-2">
+    <div class="polaroid">
+
+        <img src="img/profile.jpg" alt="">
+
+    </div>
+    <div><br><br><br>
+
+        <p class="info_about_me">
+            I am a web developer and designer with a passion for art and a strong social conscience.
+            In my past I have taught English in Spain and elementary school Spanish in the U.S. I've worked as
+            a caregiver for people with physical and mental disabilities and as a tutor for refugees and newly
+            resettled immigrants.
+            Now I'm using my communication skills with the aim of creating user-experiences that are
+            informative, aesthetically satisfying, easy-to use and helpful.
+
+
+        <p class="info">&nbsp;</p>
+    </div>
+
+    <div class="clear"></div>
+</div>
+<!--</div>-->
+<!--</div>-->
 <div class="clear"></div>
 <!--Morocco pic-->
 
@@ -162,7 +157,7 @@
             <div class="apps_full_screen_title">
                 <br><br><br>
 
-                <h2>
+                <h2 id="uxui">
                     i am passionate about web design and creating beautiful, simple, intuitive and user-friendly
                     interfaces.
                 </h2>
@@ -170,74 +165,90 @@
         </div>
     </div>
 </div>
-<div class="clear"></div>
-<div class="clear"></div>
-<!--portfolio-->
-
-
-<div class="section portfolio" id="print">
-    <div class="print_wrapper_top">
-
-        <div class="container">
-
-            <div class="one center last">
+<div id="designs" class="section portfolio">
+    <div class="container sites">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="h2-title" id="web-design"><span>Web Design</span></h2>
             </div>
-            <div class="one m_bottom_100 center last">
-                <p class="sites">
-                    Here are some examples of websites and projects I've designed and built:</p>
-
-                <p>&nbsp;</p>
-            </div>
-            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="http://www.mollysquared.com/NJF%20copy/index.html" target="_blank" class="portfolio-link"
+                   data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/flowers.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="http://www.decisionacademy.org" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/DA.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="http://www.refugeeresources.com/" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/ref.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="http://www.dianavilar.com" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/Diana.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/Mollydiana/Wanderful" target="_blank" class="portfolio-link"
+                   data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/wanderful.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/Mollydiana/studentattendance" target="_blank" class="portfolio-link"
+                   data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/checkInScreen.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
     </div>
+</div>
+<div class="clear"></div>
+<div id="wireframes" style="background-color: #fcfdff; color: black; padding: 10%;"><p id="process"
+                                                                                       class="h2-title"><span>Website design:
+        Process, sketches and mockups</span></p>
+    <br>
+    <hr>
     <br>
 
-    <div class="bg_top_print_img center">
-
-
-
-        <ul id="portfolio-items" class="gallery">
-             <li class="example"><h5 class="sites_info">Website designed for a flower shop in San Francisco <br>
-                <a class="preview" href="http://www.mollysquared.com/NJF%20copy/index.html" target="_blank"><img
-                        class="projects"
-                        style="border: 3px solid black"
-                        src="img/flowers.png"
-                        alt=""/></a>(in progress)</h5>
-            <li class="photos whatever"><h5 class="sites_info">Website for a decision skills education foundation <br>
-                <a href="http://www.decisionacademy.org" target="_blank"><img class="projects"
-                                                                              src="img/DA.png"
-                                                                              style="border: 3px solid black"
-
-                                                                              alt=""/></a>(full site)</h5></li>
-
-
-            <li class="web logos example"><h5 class="sites_info">App designed as a tool for immigrants and refugees <br>
-                <a class="preview" href="http://www.refugeeresources.com/" target="_blank"><img class="projects"
-                                                                                                src="img/ref.jpg"
-                                                                                                style="border: 3px solid black"
-                                                                                                alt=""/></a>(app in
-                progress)</h5></li>
-
-            <li class="example logos web"><h5 class="sites_info">Promotional website for a hair salon in Spain <br>
-                <a href="http://www.dianavilar.com" target="_blank"><img class="projects" src="img/Diana.png" width="60"
-                                                                         style="border: 3px solid black"
-                                                                         height="60" alt="Diana"/></a>(full site)</h5>
-            </li>
-            <li class="photos"><h5 class="sites_info">Project to keep track of future travel destinations <br>
-                <a class="preview" href="https://github.com/Mollydiana/Wanderful" target="_blank"><img class="projects"
-                                                                                                       style="border: 3px solid black"
-                                                                                                       src="img/wanderful.png"
-                                                                                                       alt=""/></a>(example
-                code)</h5></li>
-
-
-        </ul>
-
-    </div>
-    <div id="wireframes" style="background-color: #fcfdff; color: black; padding: 10%;"><p id="process">Example
-        wireframes for group networking app:</p>
+    <div class="example">
+        <h5 style="text-align: center; margin: 5% 0 9% 0"> Wireframes for a social networking app </h5>
         <h5 style="text-align: center;">
             <img class="example_wireframes" src="img/1.jpg" alt=""/>
             <img class="example_wireframes" src="img/2.jpg" alt=""/>
@@ -255,172 +266,75 @@
             <img class="example_wireframes" src="img/15.jpg" alt=""/>
             <img class="example_wireframes" src="img/16.jpg" alt=""/>
             <img class="example_wireframes" src="img/17.jpg" alt=""/>
-        </h5>
-
-
-    </div>
-    <div id="site_mockups" style="background-color: black; color: white; padding: 10%;"><p id="process">Website design:
-        Process, sketches and mockups</p>
-        <h5 style="text-align: center;"><a style="color: lightsteelblue; text-shadow: 1px 1px 5px #000"
-                                           href="http://www.decisionacademy.org" target="_blank"> Decision Academy </a>
-            site created in collaboration with <a style="color: lightsteelblue; text-shadow: 1px 1px 5px #000"
-                                                  href="http://www.mollykanderson.com" target="_blank">Molly
-                Anderson </a></h5>
-        <img class="processpics example" src="img/TaskFlow.png" alt=""/>
-        <img class="processpics example" src="img/sketch1.png" alt=""/>
-        <img class="processpics example" src="img/SchemeAcourses.png" alt=""/>
-        <img class="processpics example" src="img/sketch2.png" alt=""/>
-        <img class="processpics example" src="img/oldwwydpage.png" alt=""/>
-    </div>
-
-
-    <div class="full_width">
-
-
-        <div class="clear"></div>
-        <div class="portfolio_gallery_bottom">
-        </div>
-        <div class="clear"></div>
-        <div class="portfolio_full_screen_image background_fixed"></div>
-        <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
+        </h5></div>
 </div>
-<div class="clear"></div>
-<!--digital-->
-<div class="section about" id="digital">
-    <div class="digital_wrapper_top">
-        <div class="bg_top_digital_img center"><img style="height: 345px;
-             border: 2px solid white;" src="img/mando.JPG" alt=""/></div>
+<div class="row" id="black">
+    <div class="example">
+        <div id="site_mockups"><p></p>
+            <h5 style="text-align: center;margin-top: 17%; color: white">Sketches and mockups for the <a
+                    style="color: lightcoral"
+                    href="http://www.decisionacademy.org" target="_blank"> Decision Academy </a>
+                site created in collaboration with <a
+                        style="color: lightcoral" href="http://www.mollykanderson.com" target="_blank">Molly
+                    Anderson </a></h5>
 
-        <div class="container">
-            <div class="one center last">
+            <div class="col-sm-4 processpics example">
+                <img src="img/TaskFlow.png" class="img-responsive" alt="">
             </div>
-            <div class="one m_bottom_100 center last">
+            <div class="col-sm-4 processpics example">
+                <img src="img/SchemeA.png" class="img-responsive" alt="">
             </div>
-            <div class="clear"></div>
-            <div class="one m_bottom_90 center last">
-                <p class="music">
-                    I grew up in a family of musicians. I only dabbled in music until my early 20’s,
-                    when my father persuaded my brother and me to come with him as his backup band
-                    on a tour of Galicia (the celtic province in northwest Spain). <br><br>
-                    <br>
-                    <iframe class="i_vid_1" width="400" height="295" src="https://www.youtube.com/embed/9QJaplHr5mc"
-                            frameborder="0" allowfullscreen></iframe>
-                    <br><br>
-                    Although we were only supposed to be there for two weeks, I ended up staying for nearly three years.
-                    While I was there, I began to seriously play the mandolin, the fiddle and the accordion and was
-                    blessed to inherit a
-                    repertoire of songs and melodies that have been passed on for generations.
-                    I helped form a band and
-                    recorded a
-                    CD of traditional music.
-                    I brought the band back to the U.S.
-                    where we
-                    toured the West Coast, introducing many people to the wonderful and unique spirit of Galician
-                    culture.<br><br>
-                    <iframe class="i_vid_3" width="400" height="295" src="//www.youtube.com/embed/yp_5b5Xo2YY"
-                            frameborder="0"
-                            allowfullscreen></iframe>
-                    <br><br>
-                    In 2012 I recorded an albumn with my mother, father and brother entitled 'The Family Carr'.
-                    On it we played traditional songs from Galicia, Ireland, Appalachia and Quebec.
-                </p>
-                <div class="cd_normal">
-                    <div class="cd_display">
-                        <img class='cds' src="img/faiscas.jpg" alt=""><br><br>
-                        <img class="cds" src="img/familband.jpg" alt=""/><br>
-                    </div>
-                    <br>
-
-
-                </div>
+            <div class="col-sm-4 processpics example">
+                <img src="img/SchemeAcourses.png" class="img-responsive" alt="">
             </div>
-            <div class="cd_small">
-                <div class="cd_display">
-                    <img class='cds' src="img/faiscas.jpg" alt=""><br><br>
-
-                    <img class="cds" src="img/familband.jpg" alt=""/><br>
-
-                </div>
+            <div class="col-sm-4 processpics example">
+                <img src="img/SchemeC.png" class="img-responsive" alt="">
             </div>
+            <div class="col-sm-4 processpics example">
+                <img src="img/oldwwydpage.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-sm-4 processpics example">
+                <img src="img/SchemeB.png" class="img-responsive" alt="">
+            </div>
+            <!--<img class="processpics example" src="img/TaskFlow.png" alt=""/>-->
+            <!--<img class="processpics example" src="img/SchemeA.png" alt=""/>-->
+            <!--<img class="processpics example" src="img/SchemeAcourses.png" alt=""/>-->
+            <!--<img class="processpics example" src="img/SchemeC.png" alt=""/>-->
+            <!--<img class="processpics example" src="img/oldwwydpage.png" alt=""/>-->
+            <!--<img class="processpics example" src="img/SchemeB.png" alt=""/>-->
+
+
         </div>
-        <!--end container-->
-        <div class="clear"></div>
-    </div>
-    <div class="full_width">
 
-
-        <div class="clear"></div>
-        <div class="digital_gallery_bottom"></div>
-        <div class="clear"></div>
-        <div class="digital_full_screen_image background_fixed"></div>
-        <div class="clear"></div>
     </div>
-    <!--end full_width-->
-    <div class="clear"></div>
 </div>
-<div class="clear"></div>
-<!--photo-->
-<div class="section photo" id="photo">
-    <div class="photo_wrapper_top">
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
-        <div class="container">
-            <div class="one center last">
-            </div>
-            <div class="one m_bottom_100 center last">
 
-                <p>&nbsp;</p>
-            </div>
-            <div class="clear"></div>
-            <div class="one m_bottom_90 center last">
-                <p class="language_about">
-                    While living in Galicia from 2008-2011, I became more and more fascinated with its rich culture
-                    and
-                    language.
-                    I learned Spanish and Galego, the native Galician
-                    language. I became so fascinated by the peoples’ struggle to preserve their language and
-                    culture,
-                    that I made this short documentary
-                    so that I could share their story. <br><br>
-                    <iframe class="iframe_margin" width="540" height="375" src="//www.youtube.com/embed/2XOlgM_9fWk"
-                            frameborder="0" allowfullscreen></iframe>
-                    <br><br>
-                <div style="margin: -10px -80px; padding: 3px 37px 7px 37px; background: rgba(0, 0, 0, 0.4)"
-                     class="bottom_language">The study of and teaching of languages nurtured my fascination with
-                    communication in general.
-                    I found myself drawn to different ways of communicating ideas artfully. At a certain point my
-                    interests grew to include computer languages and design.
-                </div>
-                </p>
-            </div>
-            <div class="bg_top_photo_img center">
-
-            </div>
-            <div class="clear"></div>
-        </div>
-        <!--end container-->
-
-        <div class="clear"></div>
-        <div class="full_width">
-            <div class="photo_full_screen_image background_fixed">
-                <div class="container center">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clear"></div>
-</div>
+<div class="digital_full_screen_image background_fixed"></div>
 <div class="clear"></div>
 
 
-<div class="section contact" id="contact">
+<div class="clear"></div>
+<div class="full_width">
+    <div class="photo_full_screen_image background_fixed">
+        <div class="container center">
+
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+
+
+<div style="margin-top: -50%;" class="section contact">
     <div class="contact_wrapper">
         <div class="container">
             <div class="one center last">
             </div>
-            <div class="one m_bottom_100 center last">
+            <div id="contact" class="one m_bottom_100 center last">
 
             </div>
             <div class="clear"></div>
@@ -437,7 +351,7 @@
             <div class="clear"></div>
             <div class="clear"></div>
             <div class="one m_top_60 m_bottom_70">
-                <div class="contacts">
+                <div style="text-align: center" class="contacts">
                     <a href="https://www.facebook.com/molly.carr.5" target="_blank"><img class="socio_button"
                                                                                          src="img/logos/Facebook Round.png"/>
                         <a href="https://plus.google.com/u/0/105661497851341316830" target="_blank"><img
@@ -494,7 +408,34 @@
             ga('send', 'pageview');
 
         </script>
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+        <script>$(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".processpics").click(function () {
+                    $(this).toggleClass("sketch_test");
+                });
+
+                $(".example_wireframes").click(function () {
+                    $(this).toggleClass("test");
+                });
+            });</script>
     </div>
 </div>
 </body>

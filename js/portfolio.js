@@ -74,14 +74,7 @@ $(document).ready(function() {
         $('*').removeClass('active-items');
         return false;
     });
-	$(".processpics").click(function() {
-    $(this).toggleClass("sketch_test");    
-});
 
-	$(".example_wireframes").click(function() {
-    $(this).toggleClass("test");    
-});
-	
 });
 
 
