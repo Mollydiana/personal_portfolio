@@ -366,7 +366,7 @@
         </footer>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script>
-            $(function () {
+            $(document).ready(function () {
                 $('.ch-item').bind('hover', function (e) {
                 });
             });
@@ -391,7 +391,7 @@
 
 
 
-        <script>$(function () {
+        <script> $(document).ready(function () {
             $('a[href*=#]:not([href=#])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                     var target = $(this.hash);
