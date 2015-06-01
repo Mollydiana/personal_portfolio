@@ -13,6 +13,10 @@ body {
     color: #666;
     overflow-x: hidden;
 }
+body:after{
+    display:none;
+    content: url(../images/window2.jpg);
+}
 
 img {
     max-width: 100%;
@@ -457,6 +461,7 @@ textarea.form-control {
 
 .m_carr_header {
     opacity: 0.8;
+    width: 25%;
 }
 
 .strip {
@@ -1234,6 +1239,9 @@ button.mfp-close {
     }
     #about_me {
         padding-top: 13%;
+    }
+    .m_carr_header {
+        width: 100%;
     }
 
 }
